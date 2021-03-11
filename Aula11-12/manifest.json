@@ -1,0 +1,17 @@
+{
+	"name": "ImagensBR",
+	"version": "1.2.0.7",
+	"description": "extensão que troca img pela do nicolas cage",
+	"content_scripts" : [
+		{
+			"matches" : ["*://*.br/*"], //https://stackoverflow.com/questions/16096482/what-does-http-https-and-all-urls-mean-in-the-context-of-ch obrigado stackoverflow
+			"js": ["page.js"]
+		}
+	],
+	"icons" : {
+		"16" : "cage.png",
+		"48" : "cage.png",
+		"128" : "cage.png"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,10 @@
+
+img#porta {
+    height: 300px;
+
+}
+.body-elements{
+    display: block;
+    text-align:center;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}

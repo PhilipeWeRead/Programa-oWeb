@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+h1 {
+    color : red;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+h2 {
+    color : white;
+    font-family: sans-serif;
+}
+div {  
+    width: 200px;
+    height: 400px;
+}
+
+img {
+    border:2px solid white;
+    width: 200px;
+    height: 400px;
+}
